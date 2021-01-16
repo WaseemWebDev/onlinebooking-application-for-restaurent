@@ -1,0 +1,267 @@
+ul li a:hover{
+
+background:lightgrey !important;
+border-radius:7px;
+}
+ul li a {
+font-size: 14px;
+}
+@media only screen and (max-width:760px) {
+#search_ul{
+position:absolute !important;
+left:50px !important;
+margin-top:-370px;
+font-size:11px !important;
+
+z-index:99999 !important;
+}
+input{
+font-size:5px !important;
+
+}
+.input-group-text{
+font-size:7px !important;
+}
+button{
+font-size:10px !important;
+}
+.backgroundtext{
+
+position:absolute !important;
+left:80px !important;
+right:20px !important;
+font-size:16px;
+
+width:70% !important;
+
+}
+.bookingbox{
+
+margin-top: 160px !important;
+font-size: 10px;
+}
+.headerbtn{
+
+position: absolute !important;
+top: 110px !important;
+left: 40% !important;
+height: 29px;
+font-size: 12px;
+padding-left: 10px !important;
+padding-right: 10px !important;
+}
+.heading {
+
+font-size: 20px !important;
+position: absolute;
+top: 60px !important;
+left: 30px !important;
+right: 30px !important;
+
+}
+.groupbtn{
+
+top: 110px !important;
+left: 12% !important;
+right: 30% !important;
+max-width: 78% !important;
+
+}
+.loginbtn{
+max-width:20%;
+position:relative;
+margin-left: 20%;
+
+}
+.meetcard{
+min-width:68% !important;
+}
+.signupbtn{
+position: absolute;
+
+max-width: 24%;
+margin-left: 60%;
+
+}
+.logout{
+bottom:35px;
+left:50%;
+position:relative;
+}
+
+.cardss{
+max-width: 100px !important;
+
+}
+.featured{
+height: 490px !important;
+padding-bottom: 100px;
+}
+p{
+font-size: 12px !important;
+}
+
+}
+
+.cardss:hover{
+box-shadow: 0 6px 6px rgba(0,0,0,0.14), 
+0 15px 15px rgba(0,0,0,0.16), 
+0 15px 15px rgba(0,0,0,0.16), 
+0 15px 15px rgba(0,0,0,0.16),
+0 22px 20px rgba(0,0,0,0.16) !important;
+opacity:0.9;
+
+}
+.active{
+color:white !important;
+background: #DA670B !important;
+border-radius:7px;
+
+}
+.navitem a:hover{
+color: #DA670B;
+}
+a[data-toggle="tooltip"]:hover{
+color:orange !important;
+}
+a[data-toggle="tooltip"]{
+
+padding-left: 14%;
+}
+@media (max-width:1024px) and (min-width:1024px) {
+#search_ul{
+position:absolute !important;
+left:250px !important;
+margin-top:-12px;
+
+
+z-index:99999 !important;
+}
+.headerbtn{
+
+
+top: 300px !important;
+left: 42% !important;
+height: 40px;
+font-size: 19px;
+padding-left: 10px !important;
+padding-right: 10px !important;
+}
+.bookingbox{
+
+margin-top: 390px !important;
+font-size: 10px;
+
+}
+
+}
+/* No greater than 900px, no less than 400px */
+@media (max-width:770px) and (min-width:768px) {
+#search_ul{
+position:absolute !important;
+left:190px !important;
+margin-top:-130px;
+
+
+z-index:99999 !important;
+}
+input{
+font-size:7px !important;
+
+}
+.heading {
+left:100px !important;
+font-size: 30px !important;
+right: 20px !important;
+}
+.bookingbox{
+
+margin-top: 300px !important;
+font-size: 10px;
+
+}
+.headerbtn{
+
+position: absolute !important;
+top: 230px !important;
+left: 42% !important;
+height: 40px;
+font-size: 19px;
+padding-left: 10px !important;
+padding-right: 10px !important;
+}
+.backgroundtext{
+
+font-size: 27px;
+
+}
+
+.featuredtext{
+font-size: 12px !important;
+}
+.meetcard{
+max-width:100% !important;
+}
+
+}​
+body {
+margin: 0;
+padding: 0;
+width:100vw;
+height: 100vh;
+background-color: #eee;
+}
+.content {
+display: flex;
+justify-content: center;
+align-items: center;
+width:100%;
+height:100%;
+}
+.loader-wrapper {
+width: 100%;
+
+
+position: absolute;
+
+top: 0;
+z-index:99999 !important;
+left: 0;
+background-color: #272A5E;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.loader {
+display: inline-block;
+width: 30px;
+height: 30px;
+position: fixed;
+top: 50%;
+border: 4px solid #fff;
+animation: loader 2s infinite ease;
+}
+.loader-inner {
+vertical-align: top;
+display: inline-block;
+width: 100%;
+background-color: #fff;
+animation: loader-inner 2s infinite ease-in;
+}
+@keyframes loader {
+0% { transform: rotate(0deg);}
+25% { transform: rotate(180deg);}
+50% { transform: rotate(180deg);}
+75% { transform: rotate(360deg);}
+100% { transform: rotate(360deg);}
+}
+@keyframes loader-inner {
+0% { height: 0%;}
+25% { height: 0%;}
+50% { height: 100%;}
+75% { height: 100%;}
+100% { height: 0%;}
+}
+.rounded:hover{
+opacity:0.6;
+}
